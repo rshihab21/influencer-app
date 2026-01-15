@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 
-body {
+main, header,
+.footer-content {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -164,4 +165,83 @@ hr {
 }
 .review-item i {
     color: orange;
+}
+
+.see-more-btn {
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 50px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
+.see-more {
+    display: flex;
+    justify-content: end;
+}
+
+
+/* feature-area  styles  */
+
+.feature-area {
+    margin-top: 100px;
+}
+.feature-container {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.feature-bg img {
+    width: 100%;
+}
+.feature-content h2 {
+    font-size: 2.37rem;
+    color: rgba(10, 8, 38, 1);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-content p {
+    color: rgba(108, 108, 108, 1);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    width: 501px;
+}
+.feature-btn {
+   background: rgba(224, 44, 109, 1);
+   border: none;
+   padding: 10px 24px;
+   color: #fff;
+   font-weight: 600;
+   margin-top: 16px;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+.footer-content h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-content p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+.footer-area {
+   background: rgba(10, 8, 38, 1);
+}
+.social-icon {
+    margin-top: 17px;
+}
+.social-icon i {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    text-align: center;
+    border-radius: 100%;
+    text-align: center;
 }
