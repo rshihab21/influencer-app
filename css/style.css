@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 
-main, header,
+main,
+header,
 .footer-content {
     max-width: 1440px;
     margin: 0 auto;
@@ -138,20 +139,24 @@ hr {
     border-radius: 5px;
     padding: 15px;
 }
+
 .product-card img {
     width: 100%;
 }
-.product-card > h2 {
+
+.product-card>h2 {
     font-size: 1.56rem;
     margin: 16px 0px;
 }
+
 .product-price {
     color: rgba(0, 0, 0, 0.87);
     font-size: 1.6px;
     font-weight: 400;
     margin-bottom: 5px;
 }
-.product-card > p  {
+
+.product-card>p {
     width: 196px;
     font-size: 0.9rem;
     color: rgba(94, 99, 102, 1);
@@ -163,6 +168,7 @@ hr {
     align-items: center;
     margin-bottom: 5px;
 }
+
 .review-item i {
     color: orange;
 }
@@ -174,6 +180,7 @@ hr {
     border: none;
     background-color: transparent;
 }
+
 .see-more {
     display: flex;
     justify-content: end;
@@ -185,6 +192,7 @@ hr {
 .feature-area {
     margin-top: 100px;
 }
+
 .feature-container {
     display: flex;
     align-items: center;
@@ -194,12 +202,14 @@ hr {
 .feature-bg img {
     width: 100%;
 }
+
 .feature-content h2 {
     font-size: 2.37rem;
     color: rgba(10, 8, 38, 1);
     font-weight: 700;
     margin-bottom: 16px;
 }
+
 .feature-content p {
     color: rgba(108, 108, 108, 1);
     font-size: 1rem;
@@ -207,13 +217,14 @@ hr {
     line-height: 28px;
     width: 501px;
 }
+
 .feature-btn {
-   background: rgba(224, 44, 109, 1);
-   border: none;
-   padding: 10px 24px;
-   color: #fff;
-   font-weight: 600;
-   margin-top: 16px;
+    background: rgba(224, 44, 109, 1);
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 16px;
 }
 
 .footer-content {
@@ -221,27 +232,40 @@ hr {
     color: white;
     padding: 50px 0px;
 }
+
 .footer-content h2 {
     font-size: 1.6rem;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
 }
+
 .footer-content p {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
 }
+
 .footer-area {
-   background: rgba(10, 8, 38, 1);
+    background: rgba(10, 8, 38, 1);
 }
+
 .social-icon {
     margin-top: 17px;
 }
-.social-icon i {
+
+.social-icon {
+    display: flex;
+    gap:4px;
+    justify-content: center;
+}
+
+.icon {
+    background: rgba(255, 255, 255, 0.1);
     width: 32px;
     height: 32px;
-    background-color: red;
-    text-align: center;
-    border-radius: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
 }
